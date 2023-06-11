@@ -1,0 +1,84 @@
+.gradient-text{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 90px;
+    background: linear-gradient(to right,rgb(10, 136, 226), rgb(196, 58, 196));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content {
+    margin: 10px;
+}
+
+.new-task{
+    display: flex;
+    margin: 40px 0;
+    border: 2px solid #2A3B47;
+    border-radius: 20px;
+    background-color: #212E36;
+    padding: 25px;
+}
+
+.view-task{
+    flex-basis: 70%;
+    flex-grow: 0.1;
+
+    color: #EFF3F5;
+}
+
+.name-task{
+    color: #52A5E0;
+}
+
+
+
+.content-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.content-button-update{
+    margin: auto;
+}
+
+.content-button-update button{
+    width: 70px;
+    height: 40px;
+    background-color: #0062AC;
+    border: none;
+    border-radius: 10px;
+
+    color: #EFF3F5;
+    cursor: pointer;
+}
+
+.content-button-delete{
+    margin: auto;
+}
+
+.content-button-delete button{
+    width: 70px;
+    height: 40px;
+    background-color: #B30000;
+    border: none;
+    border-radius: 10px;
+
+    color: #EFF3F5;
+    cursor: pointer;
+}
+
+
+.message-ok{
+    text-align: center;
+    color: #13e413;
+}
+
+.message-error{
+    text-align: center;
+    color: #B30000;
+}
